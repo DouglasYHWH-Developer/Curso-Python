@@ -5,16 +5,16 @@ Executa uma ação enquantio uma condição for verdadeira
 Loop infito -> Qaundo um códifo não tem fim
 """
 contador = 0
-
-while contador < 10:
+while contador <= 100:
+    contador += 1
+    if contador == 6:
+        print('Não vou mostrar o 6.')
+        continue
+    if contador >= 10 and contador <= 27:
+        print('Não vou mostrar o', contador)
+        continue
     print(contador)
-    contador = contador + 1
-
-    if contador == 4:
+    if contador == 40:
         break
-    
-#while False: #nunca vai ser executado
-#    print('EITA') 
-
-print( 'Acabou')
+print('Acabou')
 
