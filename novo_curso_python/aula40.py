@@ -31,6 +31,7 @@ while True:
          print('Digite apenas um operador')
          continue
 
+    print ('Realizando sua conta. Confira o resultado abaixo: ')
     if operador == '+':
         resultado = int(numero_1) + int(numero_2)
         print(f'{numero_1} + {numero_2} = {resultado}')
