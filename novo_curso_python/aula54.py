@@ -20,7 +20,6 @@ while True:
       indice_str =  input(
          'Escolha o índice para apagar: '
       )
-
       try:
          indice = int(indice_str)
          del lista[indice]
