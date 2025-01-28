@@ -6,8 +6,8 @@ https://docs.python.org/pt-br/3/tutorial/floatingpoint.html
 """
 import decimal
 
-nuemro_1 = decimal.Decimal(0.1)
-nuemro_2 = decimal.Decimal(0.7)
+nuemro_1 = decimal.Decimal('0.1')
+nuemro_2 = decimal.Decimal('0.7')
 numero_3 = nuemro_1 + nuemro_2
 print(numero_3)
 print(f'{numero_3:.2f}')
