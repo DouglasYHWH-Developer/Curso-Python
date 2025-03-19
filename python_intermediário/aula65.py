@@ -6,3 +6,18 @@ determinada ação ao longo do seu código.
 e retornar um valor específico.
     Por padrão, funções em Python retornam none(nada)
 """
+
+def imprimir():
+    print('Várias')
+
+imprimir() #Várias
+
+def soma(a,b):
+    print(a + b)
+
+soma(10, 5) #15
+
+def saudacao(name):
+    print(f'Olá {name}')
+
+saudacao('Douglas')
